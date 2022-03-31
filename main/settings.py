@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'authApp.apps.AuthappConfig',
     'rest_framework_swagger',
     'rest_framework',
     'rest_framework.authtoken',
@@ -109,7 +108,6 @@ SWAGGER_SETTINGS = {
 }
 
 # Password validation
-# https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
