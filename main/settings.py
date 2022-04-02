@@ -69,23 +69,23 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'HOST' : 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com',
-        'NAME' : 'd94vspntgngdtn',
-        'USER' : 'fczfytegkrpadw',
-        'PORT' : 5432,
-        'PASSWORD' : '8b064359c80d71f58ff40a741faf00570ce5f4f809f44a6a3b98a901f358f09f',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'HOST' : 'ec2-52-48-159-67.eu-west-1.compute.amazonaws.com',
+#         'NAME' : 'd94vspntgngdtn',
+#         'USER' : 'fczfytegkrpadw',
+#         'PORT' : 5432,
+#         'PASSWORD' : '8b064359c80d71f58ff40a741faf00570ce5f4f809f44a6a3b98a901f358f09f',
+#     }
+# }
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
