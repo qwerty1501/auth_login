@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/sinon_16/Desktop/authApp/venv"
+VIRTUAL_ENV="/Users/sinon_16/Desktop/Motion_progect/authApp/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
